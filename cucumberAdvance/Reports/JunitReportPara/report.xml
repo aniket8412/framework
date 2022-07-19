@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="37.798">
+    <testcase classname="Feature to test functionality of google" name="Check google search on chrome browser" time="18.273">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: chrome=103.0.5060.114)&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'INLEN8520050646', ip: '192.168.43.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [f76ff1420330506b725ac33b52dbd7a7, get {url=https://www.google.co.in}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ADILIPRA\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57378/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f76ff1420330506b725ac33b52dbd7a7" type="org.openqa.selenium.WebDriverException"><![CDATA[Given user opens google page................................................skipped
+When user searches for search...............................................skipped
+Then user closes the browser................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'INLEN8520050646', ip: '192.168.43.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f76ff1420330506b725ac33b52dbd7a7, get {url=https://www.google.co.in}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\ADILIPRA\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57378/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f76ff1420330506b725ac33b52dbd7a7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+	at AssignmentNo2.AssignmentNo2Code.setup(AssignmentNo2Code.java:35)
+]]></failure>
+    </testcase>
+    <testcase classname="Feature to test functionality of google" name="Check google search on Edge browser" time="19.335">
+        <failure message="unknown error: net::ERR_NAME_NOT_RESOLVED&#10;  (Session info: MicrosoftEdge=103.0.1264.62)&#10;Build info: version: '4.3.0', revision: 'a4995e2c09*'&#10;System info: host: 'INLEN8520050646', ip: '192.168.43.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [4660b3697d666623378bbbd55e47b5b9, get {url=https://www.google.co.in}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.62, ms:edgeOptions: {debuggerAddress: localhost:57433}, msedge: {msedgedriverVersion: 103.0.1264.62 (e5d152f334ae..., userDataDir: C:\Users\ADILIPRA\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57433/devtoo..., se:cdpVersion: 103.0.1264.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4660b3697d666623378bbbd55e47b5b9" type="org.openqa.selenium.WebDriverException"><![CDATA[Given user opens google page................................................skipped
+When user searches for search...............................................skipped
+Then user closes the browser................................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: MicrosoftEdge=103.0.1264.62)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'INLEN8520050646', ip: '192.168.43.143', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4660b3697d666623378bbbd55e47b5b9, get {url=https://www.google.co.in}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.62, ms:edgeOptions: {debuggerAddress: localhost:57433}, msedge: {msedgedriverVersion: 103.0.1264.62 (e5d152f334ae..., userDataDir: C:\Users\ADILIPRA\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57433/devtoo..., se:cdpVersion: 103.0.1264.62, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4660b3697d666623378bbbd55e47b5b9
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:332)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:1056)
+	at AssignmentNo2.AssignmentNo2Code.setup1(AssignmentNo2Code.java:52)
+]]></failure>
+    </testcase>
+</testsuite>
